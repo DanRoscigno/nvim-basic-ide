@@ -1,6 +1,9 @@
 # Compiled Lua sources
 luac.out
 
+# some kind of a spell file that I do not think I need
+en.utf-8.add.spl
+
 # luarocks build files
 *.src.rock
 *.zip
