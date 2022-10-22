@@ -1,5 +1,6 @@
 local servers = {
 	"sumneko_lua",
+  "marksman",
 	"cssls",
 	"html",
 	"tsserver",
