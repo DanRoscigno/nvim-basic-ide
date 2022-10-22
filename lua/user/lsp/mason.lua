@@ -7,6 +7,7 @@ local servers = {
 	"bashls",
 	"jsonls",
 	"yamlls",
+	"grammarly",
 }
 
 local settings = {
@@ -50,3 +51,6 @@ for _, server in pairs(servers) do
 
 	lspconfig[server].setup(opts)
 end
+
+require'lspconfig'.grammarly.setup { init_options = { clientId = "client_BaDkMgx4X19X9UxxYRCXZo" } }
+
